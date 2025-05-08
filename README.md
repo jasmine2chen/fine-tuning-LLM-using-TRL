@@ -7,9 +7,9 @@ The goal is to reduce the time it takes to create a SQL query and make it easier
 
 ### Key highlights
 
-SFTTrainer from trl is used to fine-tune the model. The SFTTrainer makes it straightfoward to supervise fine-tune open LLMs. The SFTTrainer is a subclass of the Trainer from the transformers library and supports all the same features, including logging, evaluation, and checkpointing, but adds additiional quality of life features.
+- SFTTrainer from trl is used to fine-tune the model. The SFTTrainer makes it straightfoward to supervise fine-tune open LLMs. The SFTTrainer is a subclass of the Trainer from the transformers library and supports all the same features, including logging, evaluation, and checkpointing, but adds additiional quality of life features.
 
-As peft method, QLoRA is used to reduce the memory footprint of large language models during finetuning, without sacrificing performance by using quantization
+- As peft method, QLoRA is used to reduce the memory footprint of large language models during finetuning, without sacrificing performance by using quantization
 
 ### Workflow
 - Setup development environment
