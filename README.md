@@ -1,4 +1,4 @@
-# Direct Preference Optimization with Hugging Face TRL
+# Fine-tune LLM using trl and the SFTTrainer
 
 ### Project Overview
 This project demonstrates how to fine-tune open LLMs using Hugging Face TRL, Transformers & datasets to generate SQL queries based on a natural language instruction.
